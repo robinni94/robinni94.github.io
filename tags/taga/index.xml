@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tagA on Robin</title>
+    <link>https://robinni94.github.io/tags/taga/</link>
+    <description>Recent content in tagA on Robin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 07 Jul 2019 14:03:05 +0800</lastBuildDate>
+    
+	<atom:link href="https://robinni94.github.io/tags/taga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的第一个博客</title>
+      <link>https://robinni94.github.io/post/blog01/</link>
+      <pubDate>Sun, 07 Jul 2019 14:03:05 +0800</pubDate>
+      
+      <guid>https://robinni94.github.io/post/blog01/</guid>
+      <description>&lt;p&gt;linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。&lt;/p&gt;
+
+&lt;p&gt;那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

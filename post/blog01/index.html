@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>我的第一个博客</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Robin Ni">
+  <meta name="description" content="linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。
+那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。
+">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@twitter_username">
+    <meta name="twitter:title" content="我的第一个博客">
+    <meta name="twitter:description" content="linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。
+那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。
+">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="我的第一个博客">
+  <meta property="og:description" content="linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。
+那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。
+">
+  <meta property="og:url" content="https://robinni94.github.io/post/blog01/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://robinni94.github.io/post/blog01/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc">
+<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587">
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Robin">
+<meta name="msapplication-tooltip" content="Robin">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://robinni94.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://robinni94.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://robinni94.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://robinni94.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://robinni94.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://robinni94.github.io/manifest.json">
+
+
+<link rel="preload" href="https://robinni94.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://robinni94.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://robinni94.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://robinni94.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://robinni94.github.io/"><img class="avatar" src="https://robinni94.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://robinni94.github.io/">Robin</a></h2>
+  
+  <p class="subtitle">痛苦的不是失败，而是我本可以。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://robinni94.github.io/">首页</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://github.com/robinni94">作品</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://robinni94.github.io/tags/">标签</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="mailto:binloveslife@gmail.com" title="Email" aria-label="Email">
+            <span class="icon icon-email" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//github.com/robinni94" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/twitter_username" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//weibo.com/https://weibo.com/u/3030415232?is_hot=1" rel="me" title="Weibo" aria-label="Weibo">
+            <span class="icon icon-weibo" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="https://robinni94.github.io/images/qrcode.jpg" rel="me" title="Wechat" aria-label="Wechat">
+            <span class="icon icon-wechat" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//www.linkedin.com/in/linkedin_username" rel="me" title="LinkedIn" aria-label="LinkedIn">
+            <span class="icon icon-linkedin" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">我的第一个博客</h1>
+      <p class="post-meta">@Robin Ni · Jul 7, 2019 · 2 min read</p>
+    </header>
+    <article class="post-content"><p>linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。</p>
+
+<p>那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。</p>
+
+<p>linux一说都是搞开发玩的，敲敲键盘就能完成所有的工作。其实你也可以这么玩，玩游戏的除外哦。</p>
+
+<p>那我们就来侃侃如何玩，linux是命令的天下，高级的命令那是相当的多，但是我们正真用到的也就那么几个看你是不是都知道，如果你都知道的话，说明你已经会玩了。</p>
+
+<p>当然第一步是打开Terminal终端又了这个linux才会听你的话。
+ls
+ls 列出文件和目录 ls /home (列出home下面的所有文件和目录)
+ls -alh　列出当前所有文件包括隐藏文件及文件大小权限和时间，我一般都这么使用，它的使用太频繁了。
+如果你觉得这个还不能满足你的要求你也可以　ls &ndash;help
+mkdir
+mkdir 建立目录 mkdir test
+mkdir -p test/val　建立多级目录 -m 加上文件权限
+rmdir
+rmdir 　删除空目录 如：rmdir test(只能删除空目录，如果该目录下还有其它文件则该命令无效)
+touch
+touch 建立空文件 如：touch Test.txt
+cp
+cp 复制命令 如：cp /home/Test.txt / (将home路径下的Test.txt文件复制到根目录下)
+cp -r dir1 dir2 （-r表示递归，将dir1代表的文件夹及里面的文件复制到dir2路径那里） 如：cp -r /home/test /(将home下的test文件夹复制到根目录下) 不过只要是系统目录都要加上权限sudo(ubuntu下)
+mv
+mv 移动文件和改文件名 如：mv /home/Test.txt /(表示将home下的Test.txt文件移动到根目录下)
+mv /Test.txt /Hello.java(表示将Test.txt文件名改成Hello.java)
+rm
+rm 删除文件和目录 如：rm /Test.txt (将根目录下的Test.txt删除)
+（注：如果该文件是个文件夹则删除不了） rm -rf *(-r表示递归、f表示强制删除)删除所有内容，包括目录和文件夹 如：rm -rf /home/test(强制删除home下的test文件夹)
+ln
+ln 建立符号链接，类似于windows中的快捷方式(需root权限或相应用户权限) ln -s 源目标 目的目标 如：ln -s /etc/initrc /initrc(这样就会在根目录下建立一个initrc链接，该链接指向了etc目录下的initrc文件)
+grep
+grep 在文本中查询内容 这条命令用的非常多 如：grep &ldquo;hello&rdquo; /home/Test.txt (在Test.txt文件中查询出包含有shenliang的那行文本信息) 如果需要显示出所查文本所在行数则使用： grep -n &ldquo;hello&rdquo; /home/Test.txt(查询出Test.txt文件中hello该信息所在行数以及改行所有文本)
+find
+find 搜索文件及目录 如：find /home -name Test.java (在home文件夹下或者home中所有的子文件夹下查找名字为Test.java的文件) 重定向命令【&gt; 、&gt;&gt;、&lt;】 如：ls -l /etc&gt; out.txt (将etc下面的列表信息写入到out.txt文件中【覆写】，如果之前不存在a.txt文件，则创建a.txt文件然后将信息写进去， 如果存在out.txt文件，则会覆盖掉之前的信息) ls -al /etc&gt;&gt; out.txt (将etc下面的列表信息追加到out.txt文件信息后面)
+cat
+cat命令只能查看文件，vi命令既可以查看文件又可以修改文件，对于一些关键文件我们一般使用cat命令查看如：cat /etc/profile (只是查看该文件里的内容)
+vi
+vi ~/.bashrc (查看、并且可以修改该文件里的内容)vi这个完全是一个软件了，写代码，看代码可为神器。你要是这个用的很溜不是大神也是一瘟神呵呵。
+mount
+mount /dev/sda1 /mnt/sda1 挂载一个叫做hda2的盘 - 确定目录 &lsquo;/ mnt/sda1&rsquo; 已经存在
+umount /dev/sda1 卸载一个叫做sda1的盘 - 先从挂载点 &lsquo;/ mnt/sda1&rsquo; 退出
+fuser -km /mnt/sda1 当设备繁忙时强制卸载
+umount -n /mnt/hda2 运行卸载操作而不写入 /etc/mtab 文件- 当文件为只读或当磁盘写满时非常有用</p>
+
+<p>再来几个开关机重启登陆退出切换用户命令
+shutdown -h now 现在马上关机
+shutdown -r now 现在重新启动
+reboot 现在重新启动
+su - 如果当前是普通用户，则输入这条命令切换到管理员用户(root)，如果要切换到其他用户则敲入 su - 用户名 如:　su - leo logout 从当前用户注销(如果是在图形界面的终端的话，则是输入 exit 命令来退出当前用户)
+cd 切换目录如：cd / 表示切换到linux的根目录！！(/)表示根目录 pwd 显示用户当前在哪个路径下的命令 (这个命令用的特别多，在命令行里如果不知道当前所处文件夹，可以输入该命令 pwd</p>
+
+<p>用于创建，删除用户
+useradd 用户名 添加一个用户 如：useradd leo
+passwd 用户名 给指定的用户名修改密码 如：passwd leo
+userdel 用户名 删除一个用户，但是该用户在home文件下的子文件夹会保留 如：userdel leo
+userdel -r 用户名 删除一个用户，并且删除连同该用户在home文件夹下的子文件夹 如：userdel -r leo</p>
+
+<p>不说了基本上也全活了常用的，linux之路就是专研之路，更多需要我们自己去探索，命令是我们熟悉的第一步，如果你对命令参数不了解请help，命令后跟-h, &ndash;help都能找到你需要的。</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://robinni94.github.io/tags/taga"><span class="tag">TagA</span></a></li>
+        
+          <li><a href="https://robinni94.github.io/tags/tagb"><span class="tag">TagB</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 Robin</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://robinni94.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>
